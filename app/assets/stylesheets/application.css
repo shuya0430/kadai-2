@@ -1,0 +1,151 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.table{
+  display: block;
+}
+
+.name{
+  display: flex;
+}
+
+.title{
+  width: 20%;
+  text-align: center;
+  margin: 3px;
+}
+
+.body{
+  width: 35%;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.book-comment{
+  display: flex;
+}
+
+.book-title{
+  width: 16%;
+  text-align: center;
+  margin: auto 2%;
+}
+
+.book-body{
+  width: 31%;
+  text-align: center;
+  margin: auto 2%;
+}
+
+.show{
+  width: 13%;
+  margin: auto 1%;
+  text-align: center;
+}
+
+.edit{
+  width: 8%;
+  margin: auto 1%;
+  text-align: center;
+}
+
+.destroy{
+  width: 18%;
+  margin: auto 1%;
+  text-align: center;
+}
+
+.new{
+  display: block;
+}
+
+.field{
+  margin-bottom: 5px;
+}
+
+.actions{
+  margin-bottom: 5px;
+}
+
+.show-title{
+  display: flex;
+  margin: 30px;
+}
+
+.show-body{
+  display: flex;
+  margin: 30px;
+}
+
+.change{
+  display: flex;
+}
+
+.top-title{
+  height: auto;
+  margin: 10px 0;
+}
+
+.top1{
+  padding: 30px;
+}
+
+.top2{
+  padding: 30px;
+}
+
+.edit-title{
+  height: auto;
+  margin: 10px 0;
+}
+
+#error_explanation{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.errors-title{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+ul li{
+  font-size: 12px;
+  list-style: square;
+}
+
+ul{
+  margin: 20px 30px;
+}
